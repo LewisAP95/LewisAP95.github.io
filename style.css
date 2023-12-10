@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(160, 235, 210);
+    background-color: rgb(172, 236, 215);
   }
   
   h1 {
@@ -12,9 +12,29 @@ body {
     font-size: 20px;
   }
 
+  .main {
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(128, 128, 128);
+    border-radius: 4px;
+  }
+
   .sidebar {
     border-style: solid;
     border-width: medium;
-    border-color: grey;
+    border-color: rgb(83, 99, 104);
     border-radius: 4px;
+    display: grid;
+    position: relative;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(15%);
+  }
+
+  .sidebar_link {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(42, 114, 136);
+    border-radius: 6px;
+    margin: 1% 1% 1% 1%;
+    background-color: aquamarine;
   }
